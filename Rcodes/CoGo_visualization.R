@@ -22,7 +22,7 @@ total_geo<-merge(total_geo,id_geometry,by.x="did",by="id")
 total_geo<-subset(total_geo,total_geo$oid!=total_geo$did)
 total_map<-as.data.frame(cbind(total_geo$x.x,total_geo$y.x,total_geo$x.y,total_geo$y.y,total_geo$n))
 
-#Rename the dataset columns to denote the start and end coordinates of each trip.
+#Rename the data.frame columns to denote the start and end coordinates of each trip.
 names(total_map)<-c("start_lon", "start_lat","end_lon", "end_lat","n")
 
 #Generate an 'id' column to assign unique identifiers to each row
