@@ -1,22 +1,11 @@
 
-# spnaf R package
-# Unraveling Hotspots: 
-# An Exploratory Spatial Data Analysis of Columbus Bike Sharing Flow
+# spnaf R package *Unraveling Hotspots:An Exploratory Spatial Data Analysis of Columbus Bike Sharing Flow*
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(dplyr)
-library(spnaf)
-library(sf)
-library(mapdeck)
-library(RColorBrewer)
-```
 
 
 ## Data Processing
 
-At first, we need to load the libraries {dplyr},{spnaf},{sf},{mapdeck}, and {RColorBrewer}
+At first, we need to load the libraries {dplyr}, {spnaf}, {sf}, {mapdeck}, and {RColorBrewer}
 
 ```{r load the libraries need}
 library(dplyr)
