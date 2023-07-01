@@ -4,8 +4,6 @@ library(mapdeck)
 library(RColorBrewer)
 #'dplyr' for data wrangling
 library(dplyr)
-roads_hamburg <- read_sf("hamburg.shp")
-
 
 key<-'pk.abc' ## put your own token here
 set_token(key)
