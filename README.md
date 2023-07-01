@@ -1,6 +1,4 @@
----
-output: html_document
----
+
 # spnaf R package
 # Unraveling Hotspots: 
 # An Exploratory Spatial Data Analysis of Columbus Bike Sharing Flow
