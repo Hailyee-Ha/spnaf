@@ -5,7 +5,7 @@ library(RColorBrewer)
 library(dplyr)
 roads_hamburg <- read_sf("hamburg.shp")
 
-key<-'pk.eyJ1IjoiaGFpbHllZSIsImEiOiJjbDhrZDJ2N2kwZm9yM3lsNXN0Yjh3azAwIn0.J1kLy6DOpr0NlKIKJePxtQ' ## put your own token here
+key<-'pk.abc' ## put your own token here
 set_token(key)
 
 #open the file including geometry information of each CBG
@@ -54,4 +54,8 @@ mapdeck(token = key, style = mapdeck_style("streets"), pitch = 45) %>%
     stroke_width = "stroke",
     auto_highlight = TRUE
   )
+
+
+######visualize flow hot-spots with 0.05 of the p-value######
+
 
