@@ -1,5 +1,5 @@
 
-# spnaf R package: *Unraveling Hotspots:An Exploratory Spatial Data Analysis of Columbus Bike Sharing Flow*
+# spnaf: An R package for analyzing and mapping the hotspots of flow datasets
 
 [*spnaf*](https://cran.r-project.org/web/packages/spnaf/index.html)(spatial network autocorrelation for flows), an R package designed for the hotspot analysis of flow (e.g., human mobility, transportation, animal movement) datasets based on the Berglund and Karlström's G index.Interested readers can consult with the original method paper [Berglund and Karlström, 1999](https://link.springer.com/content/pdf/10.1007/s101090050013.pdf) for details. 
 
